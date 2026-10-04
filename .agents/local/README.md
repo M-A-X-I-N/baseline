@@ -18,12 +18,12 @@ Do not create local instruction files merely to mirror baseline filenames.
 
 ## Executable-work locations
 
-The seed layout uses:
+The seed layout groups repository-control surfaces under [`../../project_control/`](../../project_control/):
 
-- ledger / Dispatch / Active claims: [`../../tasks.md`](../../tasks.md);
-- active task specifications/workspaces: [`../../tasks/`](../../tasks/);
-- reminders: [`../../reminders.md`](../../reminders.md);
-- initiatives: [`../../initiatives/`](../../initiatives/).
+- ledger / Dispatch / Active claims: [`../../project_control/tasks.md`](../../project_control/tasks.md);
+- active task specifications/workspaces: [`../../project_control/tasks/`](../../project_control/tasks/);
+- reminders: [`../../project_control/reminders.md`](../../project_control/reminders.md);
+- initiatives: [`../../project_control/initiatives/`](../../project_control/initiatives/).
 
 A repository may deliberately choose different local paths. If it does, update this local router and local policy; baseline-owned files should not need modification.
 
