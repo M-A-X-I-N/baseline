@@ -14,10 +14,10 @@ TODO: describe what this repository owns and what successful work here means.
 
 The seed layout starts with:
 
-- `tasks.md` for executable-work scheduling metadata, Dispatch, and Active claims;
-- `tasks/` for task specifications and tracked temporary task workspaces;
-- `reminders.md` for deliberately non-executable lightweight future intent;
-- `initiatives/` for structured non-executable unfinished work/debt;
+- `project_control/tasks.md` for executable-work scheduling metadata, Dispatch, and Active claims;
+- `project_control/tasks/` for task specifications and tracked temporary task workspaces;
+- `project_control/reminders.md` for deliberately non-executable lightweight future intent;
+- `project_control/initiatives/` for structured non-executable unfinished work/debt;
 - `.agents/local/` for repository-specific normative agent policy;
 - `.agents/memory/` for durable non-normative agent knowledge whose rediscovery would be wasteful.
 
