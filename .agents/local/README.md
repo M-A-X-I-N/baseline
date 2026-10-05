@@ -16,16 +16,20 @@ Add repository-specific instruction files and their read triggers here as they b
 
 Do not create local instruction files merely to mirror baseline filenames.
 
-## Executable-work locations
+## Reserved project-control namespace
 
-The seed layout groups repository-control surfaces under [`../../project_control/`](../../project_control/):
+The baseline reserves the exact lowercase top-level path [`../../project/`](../../project/) for repository project-control and collaboration state.
 
-- ledger / Dispatch / Active claims: [`../../project_control/tasks.md`](../../project_control/tasks.md);
-- active task specifications/workspaces: [`../../project_control/tasks/`](../../project_control/tasks/);
-- reminders: [`../../project_control/reminders.md`](../../project_control/reminders.md);
-- initiatives: [`../../project_control/initiatives/`](../../project_control/initiatives/).
+Do not rename or recase `project/` merely to match a repository's source-code naming convention. Local casing/style rules do not apply to this reserved integration path.
 
-A repository may deliberately choose different local paths. If it does, update this local router and local policy; baseline-owned files should not need modification.
+The seed layout uses:
+
+- ledger / Dispatch / Active claims: [`../../project/tasks.md`](../../project/tasks.md);
+- active task specifications/workspaces: [`../../project/tasks/`](../../project/tasks/);
+- reminders: [`../../project/reminders.md`](../../project/reminders.md);
+- initiatives: [`../../project/initiatives/`](../../project/initiatives/).
+
+Repositories may add project-control material beneath `project/` when useful. Do not repurpose the reserved top-level directory for unrelated application/source content.
 
 ## Local memory organization
 
