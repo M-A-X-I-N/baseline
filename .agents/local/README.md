@@ -16,20 +16,20 @@ Add repository-specific instruction files and their read triggers here as they b
 
 Do not create local instruction files merely to mirror baseline filenames.
 
-## Reserved project-control namespace
+## Reserved meta namespace
 
-The baseline reserves the exact lowercase top-level path [`../../project/`](../../project/) for repository project-control and collaboration state.
+The baseline reserves the exact lowercase top-level path [`../../meta/`](../../meta/) for repository project-control and collaboration state.
 
-Do not rename or recase `project/` merely to match a repository's source-code naming convention. Local casing/style rules do not apply to this reserved integration path.
+Do not rename or recase `meta/` merely to match a repository's source-code naming convention. Local casing/style rules do not apply to this reserved integration path.
 
 The seed layout uses:
 
-- ledger / Dispatch / Active claims: [`../../project/tasks.md`](../../project/tasks.md);
-- active task specifications/workspaces: [`../../project/tasks/`](../../project/tasks/);
-- reminders: [`../../project/reminders.md`](../../project/reminders.md);
-- initiatives: [`../../project/initiatives/`](../../project/initiatives/).
+- ledger / Dispatch / Active claims: [`../../meta/tasks.md`](../../meta/tasks.md);
+- active task specifications/workspaces: [`../../meta/tasks/`](../../meta/tasks/);
+- reminders: [`../../meta/reminders.md`](../../meta/reminders.md);
+- initiatives: [`../../meta/initiatives/`](../../meta/initiatives/).
 
-Repositories may add project-control material beneath `project/` when useful. Do not repurpose the reserved top-level directory for unrelated application/source content.
+Repositories may add repository-control material beneath `meta/` when useful. Do not repurpose the reserved top-level directory for unrelated application/source content.
 
 ## Local memory organization
 
