@@ -12,14 +12,14 @@ TODO: describe what this repository owns and what successful work here means.
 
 ## Local source-of-truth map
 
-The baseline reserves the exact lowercase top-level `project/` path for project-control and collaboration state. Do not rename or recase it to match repository-specific source naming conventions.
+The baseline reserves the exact lowercase top-level `meta/` path for project-control and collaboration state. Do not rename or recase it to match repository-specific source naming conventions.
 
 The seed layout starts with:
 
-- `project/tasks.md` for executable-work scheduling metadata, Dispatch, and Active claims;
-- `project/tasks/` for task specifications and tracked temporary task workspaces;
-- `project/reminders.md` for deliberately non-executable lightweight future intent;
-- `project/initiatives/` for structured non-executable unfinished work/debt;
+- `meta/tasks.md` for executable-work scheduling metadata, Dispatch, and Active claims;
+- `meta/tasks/` for task specifications and tracked temporary task workspaces;
+- `meta/reminders.md` for deliberately non-executable lightweight future intent;
+- `meta/initiatives/` for structured non-executable unfinished work/debt;
 - `.agents/local/` for repository-specific normative agent policy;
 - `.agents/memory/` for durable non-normative agent knowledge whose rediscovery would be wasteful.
 
