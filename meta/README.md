@@ -5,7 +5,7 @@ The exact lowercase top-level path `meta/` is reserved by this baseline for repo
 Do **not** rename or recase this directory merely to match a repository's source-code naming convention. A repository may use snake_case, kebab-case, PascalCase, or another style elsewhere while this integration point remains exactly:
 
 ```text
-project/
+meta/
 ```
 
 Keeping the path stable makes manual baseline comparison and adoption predictable across repositories.
