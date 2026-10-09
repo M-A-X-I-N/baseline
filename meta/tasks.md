@@ -19,7 +19,19 @@ Claims are live coordination locks, not identity or recovery credentials. The ta
 
 ## Active task index
 
-_No non-terminal tasks are currently defined._
+### BASE-TASK-A
+
+| ID | State | Depends on | Title | Summary |
+|---|---|---|---|---|
+| [`BASE-TASK-A-010`](tasks/BASE-TASK-A/BASE-TASK-A-010.md) | QUEUED | — | Permit controlled changes to unstarted tasks | Refine pre-start amendments without modifying already-owned work or granting execution. |
+| [`BASE-TASK-A-020`](tasks/BASE-TASK-A/BASE-TASK-A-020.md) | QUEUED | — | Design explicit human-decision checkpoint tasks | Define an auditable approval/check-in gate for unattended agent loops. |
+
+### BASE-PROV-A
+
+| ID | State | Depends on | Title | Summary |
+|---|---|---|---|---|
+| [`BASE-PROV-A-010`](tasks/BASE-PROV-A/BASE-PROV-A-010.md) | QUEUED | — | Design multi-agent and orchestrator provenance | Compare multiple authorship trailers with role-based orchestration records; human decision before policy. |
+| [`BASE-PROV-A-020`](tasks/BASE-PROV-A/BASE-PROV-A-020.md) | QUEUED | `BASE-PROV-A-010` | Investigate agent contribution analytics | Define truthful cross-repo commit/churn/surviving-code and binary-asset metrics. |
 
 When tasks are added, record at least ID, state, dependencies, title, and a concise summary here, with the full execution contract in a linked file under `tasks/`.
 
