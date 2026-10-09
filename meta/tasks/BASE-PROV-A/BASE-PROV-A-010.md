@@ -12,6 +12,11 @@ Investigate how commit trailers should accurately represent multiple substantive
 - Document reproducible parsing rules for analytics and migration of existing records without destructive history edits.
 - Present unresolved subjective choices to the maintainer before any normative trailer change.
 
+## Maintainer direction
+
+- **2026-10-09 maintainer direction:** Keep orchestrator-only provenance undecided until investigation. Neither a role-specific trailer nor expanding `Agent-authored-by:` to orchestration is preselected.
+- Present alternatives, accurate attribution boundaries and backward-compatibility implications for a later explicit decision; research must not silently amend the live provenance grammar.
+
 ## Constraints / non-goals
 
 - Investigation/design only; do not promulgate a role grammar or rewrite commit history as an unreviewed default.
