@@ -25,6 +25,7 @@ Claims are live coordination locks, not identity or recovery credentials. The ta
 |---|---|---|---|---|
 | [`BASE-TASK-A-010`](tasks/BASE-TASK-A/BASE-TASK-A-010.md) | QUEUED | — | Permit controlled changes to unstarted tasks | Refine pre-start amendments without modifying already-owned work or granting execution. |
 | [`BASE-TASK-A-020`](tasks/BASE-TASK-A/BASE-TASK-A-020.md) | QUEUED | — | Design explicit human-decision checkpoint tasks | Define an auditable approval/check-in gate for unattended agent loops. |
+| [`BASE-TASK-A-030`](tasks/BASE-TASK-A/BASE-TASK-A-030.md) | QUEUED | `BASE-TASK-A-020` | Implement human-decision checkpoint task contract | Codify the approved safe wait-for-human task form after research and maintainer agreement. |
 
 ### BASE-PROV-A
 
